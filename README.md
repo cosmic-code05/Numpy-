@@ -27,6 +27,7 @@ pip install -e .
 Quick Start
 Creating Arrays
 python
+
 import numpy as np
 
 # From a list
