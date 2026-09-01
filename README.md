@@ -65,6 +65,14 @@ print(arr[2])     # Element at index 2: 30
 print(arr[2:5])      # Elements from index 2 to 4: [2, 3, 4]
 print(arr[::2])      # Every other element: [0, 2, 4, 6, 8]
 
+arr = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+print(arr[2:5])   # [2, 3, 4]
+print(arr[:4])    # First 4 elements: [0, 1, 2, 3]
+print(arr[5:])    # From index 5: [5, 6, 7, 8, 9]
+print(arr[::2])   # Every other element: [0, 2, 4, 6, 8]
+print(arr[::-1])  # Reverse array
+
 # 2D indexing
 matrix = np.array([[1, 2, 3], [4, 5, 6]])
 print(matrix[0, 1])  # Row 0, Column 1: 2
@@ -73,6 +81,14 @@ Mathematical Operations
 python
 a = np.array([1, 2, 3, 4])
 b = np.array([5, 6, 7, 8])
+
+matrix = np.array([[1, 2, 3],
+                   [4, 5, 6]])
+
+print(matrix[0, 1])  # Row 0, Column 1: 2
+print(matrix[1, 2])  # Row 1, Column 2: 6
+print(matrix[:, 1])  # All rows, Column 1: [2, 5]
+print(matrix[0, :])  # All columns of Row 0: [1, 2, 3]
 
 # Element-wise operations
 print(a + b)         # [6, 8, 10, 12]
