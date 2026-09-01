@@ -123,6 +123,14 @@ Reshaping and Flattening
 python
 arr = np.arange(12)
 
+arr = np.array([1, 2, 3, 4, 5])
+
+print(np.sum(arr))   # 15
+print(np.mean(arr))  # 3.0
+print(np.std(arr))   # 1.414...
+print(np.min(arr))   # 1
+print(np.max(arr))   # 5
+
 
 # Reshape
 reshaped = arr.reshape(3, 4)      # Convert to 3x4 matrix
