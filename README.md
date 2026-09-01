@@ -55,6 +55,12 @@ arr = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 print(arr[0])        # First element: 0
 print(arr[-1])       # Last element: 9
 
+arr = np.array([10, 20, 30, 40, 50])
+
+print(arr[0])     # First element: 10
+print(arr[-1])    # Last element: 50
+print(arr[2])     # Element at index 2: 30
+
 # Slicing
 print(arr[2:5])      # Elements from index 2 to 4: [2, 3, 4]
 print(arr[::2])      # Every other element: [0, 2, 4, 6, 8]
