@@ -99,6 +99,17 @@ print(np.sqrt(a))    # [1., 1.41421356, 1.73205081, 2.]
 matrix = np.array([[1, 2], [3, 4]])
 print(matrix.T)      # Transpose
 print(np.dot(matrix, matrix))  # Matrix multiplication
+
+a = np.array([1, 2, 3, 4])
+b = np.array([5, 6, 7, 8])
+
+print(a + b)       # [6, 8, 10, 12]
+print(a - b)       # [-4, -4, -4, -4]
+print(a * b)       # [5, 12, 21, 32]
+print(a / b)       # [0.2, 0.333..., 0.428..., 0.5]
+print(a ** 2)      # [1, 4, 9, 16]
+print(np.sqrt(a))  # [1., 1.414..., 1.732..., 2.]
+
 Aggregation Functions
 python
 arr = np.array([1, 2, 3, 4, 5])
@@ -111,6 +122,7 @@ print(np.max(arr))      # Maximum: 5
 Reshaping and Flattening
 python
 arr = np.arange(12)
+
 
 # Reshape
 reshaped = arr.reshape(3, 4)      # Convert to 3x4 matrix
