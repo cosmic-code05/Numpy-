@@ -1,4 +1,4 @@
-NUMERICAL PYTHON (NUMPY)
+NUMERICAL PYTHON (NumPy)
 
 What is NumPy?
 
