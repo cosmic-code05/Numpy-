@@ -2,8 +2,6 @@ NumPy - Numerical Python
 
 What is NumPy?
 
-
-
 -NumPy is the fundamental package for numerical computing in Python. It provides a powerful N-dimensional array object (ndarray) and tools for working with these arrays. -NumPy is the foundation for most scientific Python libraries and is essential for data science, machine learning, and scientific computing.
 
 Why Choose NumPy?
