@@ -176,6 +176,7 @@ Core Topics
 ✅ Linear algebra operations
 ✅ Fourier transforms
 ✅ Polynomial fitting
+
 Performance Comparison
 python
 import numpy as np
