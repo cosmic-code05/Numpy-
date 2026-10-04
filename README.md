@@ -15,6 +15,7 @@ Why Choose NumPy?
 
 -Installation
 Using pip (recommended)
+
 -bash
 pip install numpy
 Using conda
