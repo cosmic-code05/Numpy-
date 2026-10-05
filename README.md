@@ -149,6 +149,7 @@ matrix = np.array([[1, 2, 3], [4, 5, 6]])
 scalar = 2
 print(matrix * scalar)  # Each element multiplied by 2
 
+
 column = np.array([[1], [2]])
 print(matrix + column)  # Broadcasts column across all rows
 Boolean Indexing
