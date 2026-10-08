@@ -1,0 +1,7 @@
+Random Dice Roll Simulator
+Create a program that simulates rolling a six-sided die multiple times. You are given number of times the die rolls.
+Write a program that use NumPy's randint function to generate random numbers between 1 and 6 (inclusive) to represent the die rolls. Display the results as a NumPy array. Note that the output may vary for same input.
+
+Sample 1:
+Input : 3
+Output : [4 6 3]
