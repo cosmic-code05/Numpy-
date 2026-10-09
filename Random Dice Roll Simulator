@@ -6,6 +6,7 @@ Sample 1:
 Input : 3
 Output : [4 6 3]
 
+
 Solution:-
 
 import numpy as np
