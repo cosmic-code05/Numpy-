@@ -9,7 +9,6 @@ Output : [4 6 3]
 
 Solution:-
 
-
 import numpy as np
 
 num_rolls = int(input("Roll the Dice: "))
