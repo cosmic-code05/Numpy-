@@ -180,7 +180,9 @@ Core Topics
 ✅ Polynomial fitting
 
 Performance Comparison
+
 python
+
 import numpy as np
 import time
 
